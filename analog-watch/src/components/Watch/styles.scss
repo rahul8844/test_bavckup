@@ -1,0 +1,48 @@
+.dial {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, black, grey);
+}
+.center {
+  left: 145px;
+  top: 145px;
+  position: absolute;
+  z-index: 100;
+  background-image: linear-gradient(to left, black, white);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.hour {
+  margin-top: -148px;
+  margin-left: 48px;
+  background-image: linear-gradient(to left, white, transparent);
+  width: 100px;
+  height: 4px;
+  transform-origin: top right;
+}
+.min {
+  margin-left: 30px;
+  margin-top: -1px;
+  width: 120px;
+  height: 3px;
+  transform-origin: top right;
+  background-image: linear-gradient(to left, rgb(116, 116, 116), transparent);
+}
+
+.sec {
+  margin-left: 10px;
+  margin-top: -2px;
+  background-image: linear-gradient(to left, rgb(189, 187, 187), transparent);
+  width: 140px;
+  height: 2px;
+  transform-origin: top right;
+}
+
+.label{
+    margin-left: 115px;
+    position: absolute;
+    font-weight: 600;
+    color:#ffff;
+}
